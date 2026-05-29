@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicketBot • Le Système de Support Ultime pour Discord</title>
+    <meta name="description" content="Découvrez TicketBot, le bot Discord de support client le plus premium et performant. Panel interactif, rôles catégorisés, logs ultra-précis et transcriptions sécurisées.">
+    <!-- Google Fonts: Outfit & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+  <script type="module" crossorigin src="/assets/index-C6tny97R.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DMf2iLKa.css">
+</head>
+<body>
+    <!-- Background Glow Effects -->
+    <div class="glow-bg">
+        <div class="glow-sphere glow-1"></div>
+        <div class="glow-sphere glow-2"></div>
+    </div>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="/assets/logo.png" alt="TicketBot Logo" class="logo-img">
+                <span class="logo-text">Ticket<span>Bot</span></span>
+            </div>
+            <nav class="nav-links">
+                <a href="#features">Fonctionnalités</a>
+                <a href="#demo">Démo Interactive</a>
+                <a href="#pricing">Tarifs</a>
+                <a href="#contact" class="btn btn-primary nav-cta">Essayer Maintenant</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge">🔥 Nouveauté : Version Multi-Serveur V2.0</div>
+                <h1 class="hero-title">Le système de support <span class="text-gradient">le plus premium</span> pour Discord.</h1>
+                <p class="hero-description">
+                    Offrez à vos clients une expérience de support digne des plus grandes entreprises. Gère les catégories de tickets, pings de rôles personnalisés, transcriptions automatiques sécurisées et un panneau de configuration JDA 5 ultra-intuitif.
+                </p>
+                <div class="hero-actions">
+                    <a href="#demo" class="btn btn-primary btn-lg">
+                        <i data-lucide="play-circle"></i> Tester la Démo
+                    </a>
+                    <a href="#features" class="btn btn-secondary btn-lg">Découvrir les atouts</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="banner-wrapper glass">
+                    <img src="/assets/banner.png" alt="TicketBot Premium Banner" class="banner-img">
+                    <div class="banner-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Pourquoi choisir <span class="text-gradient">TicketBot</span> ?</h2>
+                <p class="section-subtitle">Une suite d'outils haut de gamme conçue spécifiquement pour maximiser la satisfaction client et simplifier le travail de vos équipes de support.</p>
+            </div>
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card glass">
+                    <div class="feature-icon-wrapper f-1">
+                        <i data-lucide="layers"></i>
+                    </div>
+                    <h3 class="feature-card-title">Multi-Catégories & Multi-Rôles</h3>
+                    <p class="feature-card-desc">Assignez des rôles de support dédiés pour chaque type de ticket (Partenariat, Signalement, Support Général, Suggestion) afin de diriger chaque demande vers le bon interlocuteur.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="feature-card glass">
+                    <div class="feature-icon-wrapper f-2">
+                        <i data-lucide="sliders"></i>
+                    </div>
+                    <h3 class="feature-card-title">Panneau Interactif JDA 5</h3>
+                    <p class="feature-card-desc">Configurez l'ensemble du bot directement depuis Discord grâce au panneau de commande <code>/ticketconfig</code> interactif. Pas de panel web complexe requis.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="feature-card glass">
+                    <div class="feature-icon-wrapper f-3">
+                        <i data-lucide="file-text"></i>
+                    </div>
+                    <h3 class="feature-card-title">Transcriptions Automatiques</h3>
+                    <p class="feature-card-desc">Dès qu'un ticket est fermé, un historique complet des messages est généré au format texte et envoyé automatiquement dans votre salon de transcriptions dédié.</p>
+                </div>
+                <!-- Feature 4 -->
+                <div class="feature-card glass">
+                    <div class="feature-icon-wrapper f-4">
+                        <i data-lucide="shield-check"></i>
+                    </div>
+                    <h3 class="feature-card-title">Expérience Client Sublime</h3>
+                    <p class="feature-card-desc">Des boutons interactifs et réactifs avec prise en charge en un clic (Claim) indiquant instantanément le modérateur en charge de la demande.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Simulator / Demo Section -->
+    <section id="demo" class="demo-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Essayez le <span class="text-gradient">Simulateur Interactif</span></h2>
+                <p class="section-subtitle">Cliquez sur les boutons ci-dessous pour découvrir en temps réel l'interface premium de TicketBot telle qu'elle apparaît dans votre Discord client.</p>
+            </div>
+            
+            <!-- Discord Client Mockup -->
+            <div class="discord-mockup glass">
+                <!-- Discord Left sidebar: servers -->
+                <div class="discord-servers">
+                    <div class="server-icon active">
+                        <img src="/assets/logo.png" alt="TicketBot Icon">
+                        <div class="server-active-pill"></div>
+                    </div>
+                    <div class="server-icon placeholder"><span>G1</span></div>
+                    <div class="server-icon placeholder"><span>G2</span></div>
+                </div>
+
+                <!-- Discord Channels sidebar -->
+                <div class="discord-channels">
+                    <div class="server-name">
+                        <span>Mon Serveur Premium</span>
+                        <i data-lucide="chevron-down"></i>
+                    </div>
+                    <div class="channels-list">
+                        <div class="channel-group">📌 Salons Principaux</div>
+                        <div class="channel-item active" id="chan-panel" onclick="switchChannel('panel')">
+                            <i data-lucide="hash" class="chan-hash"></i>
+                            <span>ticket-panel</span>
+                        </div>
+                        <div class="channel-item" id="chan-logs" onclick="switchChannel('logs')">
+                            <i data-lucide="hash" class="chan-hash"></i>
+                            <span>ticket-logs</span>
+                            <span class="badge-unread" id="unread-logs">2</span>
+                        </div>
+                        <div class="channel-item" id="chan-transcripts" onclick="switchChannel('transcripts')">
+                            <i data-lucide="hash" class="chan-hash"></i>
+                            <span>transcripts</span>
+                            <span class="badge-unread" id="unread-transcripts">1</span>
+                        </div>
+                        
+                        <div class="channel-group" id="group-tickets-header" style="display: none;">📩 Tickets Actifs</div>
+                        <div class="channel-item ticket-channel" id="chan-user-ticket" style="display: none;" onclick="switchChannel('ticket')">
+                            <i data-lucide="hash" class="chan-hash"></i>
+                            <span id="ticket-chan-name">ticket-maxime</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Discord Chat area -->
+                <div class="discord-chat">
+                    <div class="chat-header">
+                        <i data-lucide="hash" class="header-hash"></i>
+                        <span id="chat-header-title">ticket-panel</span>
+                        <div class="chat-header-desc" id="chat-header-description">Salon d'ouverture des tickets</div>
+                    </div>
+
+                    <div class="chat-messages" id="chat-messages-container">
+                        <!-- Messages dynamically populated by main.js -->
+                    </div>
+
+                    <!-- Input placeholder (read only / simulated) -->
+                    <div class="chat-input-bar">
+                        <div class="input-actions">
+                            <i data-lucide="plus-circle"></i>
+                        </div>
+                        <input type="text" placeholder="Envoyer un message dans #ticket-panel" id="chat-input" disabled>
+                        <div class="input-emoji">
+                            <i data-lucide="smile"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Des tarifs simples pour <span class="text-gradient">tous vos projets</span></h2>
+                <p class="section-subtitle">Choisissez l'offre qui correspond le mieux à la taille de votre communauté.</p>
+            </div>
+            
+            <div class="pricing-grid">
+                <!-- Plan 1 -->
+                <div class="pricing-card glass">
+                    <div class="plan-name">Abonnement</div>
+                    <div class="plan-price">2.99€<span>/mois</span></div>
+                    <p class="plan-desc">Parfait pour tester le bot sur votre serveur et profiter de toutes les mises à jour en continu.</p>
+                    <ul class="plan-features">
+                        <li><i data-lucide="check"></i> Multi-Serveur illimité</li>
+                        <li><i data-lucide="check"></i> Panel de configuration</li>
+                        <li><i data-lucide="check"></i> Rôles catégorisés illimités</li>
+                        <li><i data-lucide="check"></i> Support & Mises à jour incluses</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary plan-btn">Choisir cette offre</a>
+                </div>
+                
+                <!-- Plan 2 (Featured) -->
+                <div class="pricing-card glass featured">
+                    <div class="featured-badge">MEILLEURE OFFRE</div>
+                    <div class="plan-name">Licence À Vie</div>
+                    <div class="plan-price">9.99€<span>une fois</span></div>
+                    <p class="plan-desc">Accès complet à vie au code source compilé du bot, sans aucun abonnement mensuel.</p>
+                    <ul class="plan-features">
+                        <li><i data-lucide="check"></i> Utilisation à vie garantie</li>
+                        <li><i data-lucide="check"></i> Mises à jour majeures gratuites</li>
+                        <li><i data-lucide="check"></i> Support prioritaire par notre équipe</li>
+                        <li><i data-lucide="check"></i> Code source compilé (.jar)</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary plan-btn">Obtenir la licence</a>
+                </div>
+
+                <!-- Plan 3 -->
+                <div class="pricing-card glass">
+                    <div class="plan-name">Clé en Main (Setup)</div>
+                    <div class="plan-price">24.99€<span>une fois</span></div>
+                    <p class="plan-desc">Nos ingénieurs s'occupent de tout : hébergement 24/7, configuration de votre DB Supabase et liaison Discord.</p>
+                    <ul class="plan-features">
+                        <li><i data-lucide="check"></i> Hébergement VPS inclus 3 mois</li>
+                        <li><i data-lucide="check"></i> Setup complet de la base PostgreSQL</li>
+                        <li><i data-lucide="check"></i> Configuration personnalisée</li>
+                        <li><i data-lucide="check"></i> Support VIP dédié 24h/24</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary plan-btn">Demander l'installation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Purchase CTA -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-card glass">
+                <div class="contact-content">
+                    <h2 class="contact-title">Prêt à propulser votre support au <span class="text-gradient">niveau supérieur</span> ?</h2>
+                    <p class="contact-desc">Contactez-nous directement sur Discord pour obtenir votre licence ou poser toutes vos questions. Notre équipe répond en moins de 10 minutes !</p>
+                    <div class="contact-actions">
+                        <a href="https://discord.gg/PremiumTicketBot" target="_blank" class="btn btn-primary btn-lg contact-btn">
+                            <i data-lucide="message-square"></i> Nous rejoindre sur Discord
+                        </a>
+                        <a href="mailto:contact@ticketbot.premium" class="btn btn-secondary btn-lg contact-btn">
+                            <i data-lucide="mail"></i> Nous écrire par Email
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="copyright">© 2026 TicketBot. Tous droits réservés. Développé avec 💖 pour des communautés d'excellence.</p>
+            <div class="footer-links">
+                <a href="#features">Atouts</a>
+                <a href="#demo">Simulateur</a>
+                <a href="#pricing">Tarifs</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main Logic script -->
+</body>
+</html>
